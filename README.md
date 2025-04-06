@@ -4,16 +4,20 @@
    
 The project was approached methodically by first understanding the underlying biological concepts of calorie burning during exercise. Key parameters such as duration, average heart rate, and body temperature were identified as essential for the prediction model. The project workflow involved data collection from CSV files, preprocessing the data to clean and prepare it for analysis, followed by using visualization techniques to analyze and understand the dataset. Afterward, the dataset was split into training and test sets, and a machine learning model was selected and trained to predict the calories burned based on the identified parameters.
 
-What algorithm is used and why?
+2. What algorithm is used and why?
+   
 The algorithm used for this project is the XGBoost Regressor. This algorithm is popular for its performance in regression problems due to its ability to handle various data types, perform well with large datasets, and incorporate techniques like regularization to prevent overfitting. XGBoost is particularly efficient for structured data and has become a go-to choice for many machine learning practitioners dealing with predictive modeling tasks.
 
-Any alternative algorithms and why you preferred this algorithm?
+3. Any alternative algorithms and why you preferred this algorithm?
+   
 Alternatives to the XGBoost Regressor include Linear Regression, Random Forest Regression, and Support Vector Regression. Although these algorithms are also effective, XGBoost was preferred for this project primarily due to its superior performance on the given dataset and its capabilities to handle complex relationships between the features. XGBoost’s ability to model non-linear relationships inherently makes it a powerful choice for this type of regression problem where accuracy in calorie prediction is crucial.
 
-Benefits of completing this project: useful to whom?
+4. Benefits of completing this project: useful to whom?
+   
 Completing this project offers actionable insights for fitness enthusiasts, nutritionists, and health analysts. By accurately predicting calories burned, individuals can tailor their exercise and dietary plans to meet their health goals. This model can also provide useful data for personal trainers, enabling them to offer customized training schedules based on a person’s unique physiological metrics. Additionally, the project serves as a practical application for machine learning concepts, beneficial for students and professionals looking to enhance their skills in data science.
 
-What are the steps required to do the project from start to end?
+5. What are the steps required to do the project from start to end?
+6. 
 The steps involved in completing this project include:
 
 Data Collection: Gather datasets from sources like Kaggle, focusing not only on calories burned but also exercise context.
@@ -24,7 +28,8 @@ Model Training: Implement the XGBoost Regressor to train the model using the pre
 Model Evaluation: Evaluate the model’s predictions with metrics such as Mean Absolute Error to assess accuracy.
 Prediction and Insights: Utilize the trained model to predict calorie burn based on input parameters, offering actionable insights into fitness regimens.
 
-What input parameters are used to evaluate and predict calories?
+7. What input parameters are used to evaluate and predict calories?
+   
 The machine learning model uses several input parameters to predict the number of calories burned during exercise. These parameters include:
 
 Duration of Exercise: This refers to how long the person has been exercising, measured in minutes. It is a critical factor as longer durations typically correlate with higher calories burned.
