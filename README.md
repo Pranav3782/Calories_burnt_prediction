@@ -1,6 +1,6 @@
 # Calories_burnt_prediction
 
-How did you do the project?
+1. How did you do the project?
 The project was approached methodically by first understanding the underlying biological concepts of calorie burning during exercise. Key parameters such as duration, average heart rate, and body temperature were identified as essential for the prediction model. The project workflow involved data collection from CSV files, preprocessing the data to clean and prepare it for analysis, followed by using visualization techniques to analyze and understand the dataset. Afterward, the dataset was split into training and test sets, and a machine learning model was selected and trained to predict the calories burned based on the identified parameters.
 
 What algorithm is used and why?
